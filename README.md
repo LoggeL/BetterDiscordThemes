@@ -1,7 +1,7 @@
 # BetterDiscordThemes
 My BetterDiscord Themes
 
-## Red-Theme
+## [Red-Theme ](/Red.theme.css)
 ### Chat View
 ![ChatView](/Screenshots/RedInterface.png)
 ### Menu View
