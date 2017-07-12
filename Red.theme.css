@@ -1,0 +1,159 @@
+//META{"name":"Theme_Red_Name","description":"Theme_Red_Description","author":"Theme_Red_Author","version":"0.0.0"}*//{}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.app, .callout-backdrop {
+	background:url(https://4.bp.blogspot.com/-ocm4KhSJ-Kw/VrpEsMmqilI/AAAAAAAA31U/VUc-KYy0nKo/s1600/Yasuo_Splash_3.jpg) !important;
+	background-size:cover !important;
+}
+
+.channel.selected a, .win-close {
+	background-color: rgba(255, 0, 0, 0.5) !important;
+	color: #ffffff !important;
+}
+
+.guild div .guild-inner {
+	background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+.guild.selected {
+	border-radius: 30%;
+	background-color: rgba(255, 0, 0, 0.5) !important;
+	color: #ffffff !important;
+}
+
+.member-roles .member-role {
+	background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+	color: #d0d0d0 !important;
+}
+
+textarea {
+	color: white !important;
+}
+
+.ui-standard-sidebar-view, .theme-dark .layer, .ui-standard-sidebar-view .content-region, .ui-standard-sidebar-view .sidebar-region {
+	background: rgba(0, 0, 0, 0.25) !important;
+}
+
+.textarea-disabled {
+	opacity: 0.1;
+}
+
+#user-profile-modal .header:after {
+	background-image: linear-gradient(-180deg,hsla(0,100%,50%,0.75),#fff);
+
+}
+
+#user-profile-modal .avatar-wrapper {
+	background-color: rgba(0,0,0,0) !important;
+}
+
+#user-profile-modal .guilds .guild, #user-profile-modal .guilds .guild .guild-nick {
+	color: black;
+}
+
+#user-profile-modal .scroller {
+	background: linear-gradient(#fff,hsla(0,100%,50%,0.75));
+}
+
+textarea:disabled::-webkit-input-placeholder {
+	color: red !important;
+}
+
+.new-messages-bar{
+	background-color: rgba(234, 11, 11, 0.85) !important;
+}
+
+.context-menu .item:hover, .contentSelectedText-3j5CXt, .user-popout .header {
+	background-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+.layer, .layers, .messages-wrapper, .chat, .content, .channels-wrap, .container-RYiLUQ, .private-channels, .typing, .channels-wrap {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.channel-members, .scroller-fzNley, #friends, .guilds-wrapper, .friends-table, .friends-header {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.search-bar, .context-menu, .context-menu .item-subMenu, .user-popout .body, .user-popout .footer, .ui-standard-sidebar-view .bda-slist li {
+	background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.theme-dark .messages-wrapper .messages .divider span {
+	background-color: #b90000;
+	color: #ffffff !important;
+}
+
+.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+	background: #ffffff;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+	background-color: #000000 !important;
+	border: 3px solid #000 !important;
+	border-radius: 10px;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+	background-color: #ff0000 !important;
+	border: none;
+}
+
+code {
+	background: #1f1c1c !important;
+}
+
+.switch-3lyafC.checked-7qfgSb, .barFill-18ABna, .buttonBrandFilled-3Mv0Ra, .bd-blue *[style*="background-color: rgb(114, 137, 218)"], #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+	background: red !important;
+	border:none;
+}
+
+.gulids-wrapper .guilds {
+	padding: 25px 5px;
+}
+
+.timestamp {
+	color: white;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 10px;
+}
+
+.channel-textarea-inner{
+	background-color: rgba(0, 0, 0, 0.67);
+	border-color: rgba(255,255,255,.5) !important;
+}
+
+.channel-textarea-autocomplete-inner {
+	border:none !important;
+	background:rgba(0,0,0,0.85) !important;
+}
+
+.channel-textarea-autocomplete-inner header {
+	border:none !important;
+	background: rgba(255,0,0,0.5) !important;
+	color: rgba(255,255,255,0.9) !important;
+}
+
+.channel-textarea-autocomplete-inner ul li.active {
+	background: rgba(255,0,0,0.3) !important;
+	border: 3px solid rgba(255,255,255,.1) !important;
+	color: #fff !important;
+}
+
+.guilds-wrapper .guilds .friends-icon:after {
+    display:block;
+    width:50px;
+    height:50px;
+    content:'';
+    background-image: url(https://i.imgur.com/cm6mEXd.gif) !important;
+    background-size:110%;
+    background-repeat:no-repeat;
+    background-position:top center;
+		filter: invert(100%) saturate(5) contrast(200%);
+		-webkit-filter: invert(100%) saturate(5) contrast(200%);
+}
