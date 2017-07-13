@@ -46,7 +46,7 @@ textarea {
 }
 
 #user-profile-modal .header:after {
-	background-image: linear-gradient(-180deg,hsla(0,100%,50%,0.75),#fff);
+	background-image: linear-gradient(-180deg,hsla(220,100%,50%,0.75),#fff);
 
 }
 
@@ -59,7 +59,7 @@ textarea {
 }
 
 #user-profile-modal .scroller {
-	background: linear-gradient(#fff,hsla(0,100%,50%,0.75));
+	background: linear-gradient(#fff,hsla(220,100%,50%,0.75));
 }
 
 textarea:disabled::-webkit-input-placeholder {
